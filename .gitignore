@@ -1,0 +1,8 @@
+# 缓存文件
+.idea
+.vs
+Binaries
+Build
+DerivedDataCache
+Intermediate
+Saved
