@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Math/UnrealMath.h"
 #include "TickableTimerInfo.generated.h"
 
 UENUM(BlueprintType)

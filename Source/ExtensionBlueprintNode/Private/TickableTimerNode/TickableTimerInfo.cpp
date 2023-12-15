@@ -27,7 +27,7 @@ void FTickableTimerInfo::AddDeltaTime(float DeltaSecond)
 {
 	DeltaTime = DeltaSecond;
 	CurrentTime += DeltaTime;
-	Program = FMath::Clamp(CurrentTime / EndTime, 0, 1);
+	Program = FMath::Clamp<float>(CurrentTime / EndTime, 0, 1);
 }
 
 bool FTickableTimerInfo::CheckEnd()
